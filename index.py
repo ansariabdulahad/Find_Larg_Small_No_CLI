@@ -12,3 +12,15 @@ def Test() :
     print("Large number is :",FindLarge(data))
     print("Small number is :",FindSmall(data))
 Test()
+
+def DicExample() :
+    ahadObj = {
+        'name' : 'AhadAnsari',
+        'roll': '1',
+        'dob': '23/01/2001',
+        'address': 'mumbai'
+    }
+
+    for key in ahadObj : 
+        print(f"{key} = {ahadObj[key]}")
+DicExample()
